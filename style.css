@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(240, 240, 240);
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: white;
+    color: black;
+    padding: 15px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
+}
+
+.name{
+    text-align: left;
+}
+
+.sections {
+    color: black;
+    text-align: center;
+}
+.section {
+    color: black;
+    margin-right: 50px;
+    text-decoration: none;
+
+}
+
+
+.links {
+    color: black;
+    text-align: right;
+    text-decoration: none;
+}
+
+.logo {
+    width: 25px;
+    height: 25px;
+    transition: transform 0.2s; margin: 0px;
+  }
+  
+  .logo:hover {
+    transform: scale(1.1);
+  }
+
+h1{
+    font-family: verdana, arial;
+    margin: auto;
+
+}
